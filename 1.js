@@ -50,8 +50,7 @@ const getUserChoice = (userInput) => {
     console.log('Your choice: ' + userChoice);
     console.log('Computer choice: ' + computerChoice);
     determineWinner(userChoice, computerChoice);
-    
-  }
+    }
   
   playGame();
   
